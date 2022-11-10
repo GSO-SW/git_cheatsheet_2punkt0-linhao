@@ -13,5 +13,8 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - abstract (Methoden)
   - virtual
   - override
+   - Eine override-Methode stellt eine neue Implementierung der Methode bereit, die von einer Basisklasse geerbt wurde.
+   - Der override-Modifizierer wird benötigt, um die abstrakte oder virtuelle Implementierung einer geerbten Methode, Eigenschaft,   eines Indexers oder Ereignisses zu erweitern oder ändern.
+   - Sie können keine nicht virtuelle oder statische Methode überschreiben. Die überschriebene Basismethode muss virtual, abstract oder override sein.
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
