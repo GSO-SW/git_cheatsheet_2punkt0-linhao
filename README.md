@@ -11,7 +11,14 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - git checkout [branch-name]: Wechseln nach andere branch. 
   - git merge [branch]: führt zwei branch zusammen.
   - git rebase [branch]: versetzt commit auf neue Basis.
-  - git init: erstellen ein repository.
+  - git init: erstellen ein repository .git.
+  - git diff <commit/branch> <commit/branch>: Zeigt Unterschniede zwischen zwei commit oder branch.
+  - git log: Historie für den aktuellen branch.
+  - git add [Dateinamen]/* "sternzeichen heißt alle Datei": Datei nach staging area bewegen(bereitet commit vor).
+  - git branch -d [branch-name]: branch löschen.
+  - git show[commit-name "**Wichtig** ist **Commit Name** nicht Nachricht"]: gibt die Inhaltsänderungen des angegebenen Commits aus.
+  - git status: Aktiver Status bzw. Anzeige der aktiven branch.
+  - git config [name]/[E-mail]/[editor]: Konfigurieren Sie die Benutzerinformationen für alle lokalen Repositories. 
 - git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)
   - git clone [url]: Kopieren ein repository von Github bzw. Unterladen.
   - git push: alle local branch auf Github hochladen
